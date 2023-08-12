@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TAD_Vetor
+namespace Questao2
 {
     internal class Vet
     {
