@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\Questao1\\Questao1\\Questao1.csproj",
+      "projectUniqueName": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\NumeroComplexo\\Questao1\\Questao1.csproj",
       "projectName": "Questao1",
-      "projectPath": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\Questao1\\Questao1\\Questao1.csproj",
+      "projectPath": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\NumeroComplexo\\Questao1\\Questao1.csproj",
       "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\Questao1\\Questao1\\obj\\",
+      "outputPath": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\NumeroComplexo\\Questao1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config",
