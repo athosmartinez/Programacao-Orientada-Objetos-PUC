@@ -25,10 +25,19 @@
             string DataNascimentoString = Console.ReadLine();
             Console.WriteLine("Digite a data de associação do sócio, no formato DD/MM/YYYY: ");
             string DataAssociacaoString = Console.ReadLine();
-            if (DateOnly.TryParseExact(DataNascimentoString, "dd/MM/yyyy", out DateOnly DataNascimento) && DateOnly.TryParseExact(DataAssociacaoString, "dd/MM/yyyy", out DateOnly DataAssociacao))
+
+            if (DateOnly.TryParseExact(DataNascimentoString, "dd/MM/yyyy", out DateOnly DataNascimento) &&
+                DateOnly.TryParseExact(DataAssociacaoString, "dd/MM/yyyy", out DateOnly DataAssociacao))
             {
                 Random random = new Random();
-                int NumeroCota = random.Next(1000000, 9999999);
+                int NumeroCota;
+
+                // Continue gerando números de cota até encontrar um que não está em uso.
+                do
+                {
+                    NumeroCota = random.Next(1000000, 9999999);
+                } while (CotaJaExiste(socios, NumeroCota));
+
                 Console.WriteLine("O número da cota do sócio é: " + NumeroCota);
                 socios[n] = new Socios(NumeroCota, Nome, DataNascimento, DataAssociacao);
                 DepedenteSocio.AdicionarDependente(socios[n]);
@@ -39,6 +48,16 @@
             }
         }
 
+        private static bool CotaJaExiste(Socios[] socios, int NumeroCota)
+        {
+            for (int i = 0; i < socios.Length; i++)
+            {
+                if (socios[i] != null && socios[i].NumeroCota == NumeroCota)
+                    return true;
+            }
+            return false;
+        }
+
         public static void RemoverSocio(int numeroCota, Socios[] socios)
         {
             for (int i = 0; i < socios.Length; i++)
@@ -46,7 +65,9 @@
                 if (socios[i].NumeroCota == numeroCota)
                 {
                     DepedenteSocio.RemoverDependente(numeroCota, socios[i].Depedentes);
-                    socios[i].NumeroCota = -1;
+                    socios[i].NumeroCota = 0;
+                    socios[i].Nome = "SOCIO APAGADO";
+                    socios[i].DataNascimento = new DateOnly(1, 1, 1);
                     Console.WriteLine("Socio da " + numeroCota + " apagado com sucesso.");
                     return;
                 }
@@ -59,7 +80,6 @@
             foreach (var socio in socios)
             {
                 Console.WriteLine($"Sócio - Número da Cota: {socio.NumeroCota}, Nome: {socio.Nome}, Data de Nascimento: {socio.DataNascimento}, Data de Associação: {socio.DataAssociacao}");
-
                 if (socio.Depedentes.Count > 0)
                 {
                     Console.WriteLine($"Dependentes do {socio.Nome}: ");

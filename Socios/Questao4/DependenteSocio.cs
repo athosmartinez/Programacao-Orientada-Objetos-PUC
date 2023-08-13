@@ -62,7 +62,6 @@ namespace Questao4
                     Console.WriteLine("Dependente da " + NumeroContaDependenteCerto + " apagado com sucesso.");
                     return;
                 }
-
             }
             Console.WriteLine("Nenhum dependente com esse numero de cota encontrado.");
         }
