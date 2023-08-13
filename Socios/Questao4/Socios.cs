@@ -21,15 +21,11 @@
         {
             Console.WriteLine("Digite o nome do sócio: ");
             string Nome = Console.ReadLine();
-
             Console.WriteLine("Digite a data de nascimento do sócio, no formato DD/MM/YYYY: ");
             string DataNascimentoString = Console.ReadLine();
-
             Console.WriteLine("Digite a data de associação do sócio, no formato DD/MM/YYYY: ");
             string DataAssociacaoString = Console.ReadLine();
-
-
-            if (DateOnly.TryParseExact(DataNascimentoString, "dd/MM/yyyy", out DateOnly DataNascimento) || DateOnly.TryParseExact(DataAssociacaoString, "dd/MM/yyyy", out DateOnly DataAssociacao))
+            if (DateOnly.TryParseExact(DataNascimentoString, "dd/MM/yyyy", out DateOnly DataNascimento) && DateOnly.TryParseExact(DataAssociacaoString, "dd/MM/yyyy", out DateOnly DataAssociacao))
             {
                 Random random = new Random();
                 int NumeroCota = random.Next(1000000, 9999999);
@@ -49,12 +45,32 @@
             {
                 if (socios[i].NumeroCota == numeroCota)
                 {
-                    socios[i] = null;
+                    DepedenteSocio.RemoverDependente(numeroCota, socios[i].Depedentes);
+                    socios[i].NumeroCota = -1;
                     Console.WriteLine("Socio da " + numeroCota + " apagado com sucesso.");
+                    return;
+                }
+            }
+            Console.WriteLine("Nenhum socio com essa cota foi encotrado.");
+        }
+
+        public static void ImprimirSociosEDependentes(Socios[] socios)
+        {
+            foreach (var socio in socios)
+            {
+                Console.WriteLine($"Sócio - Número da Cota: {socio.NumeroCota}, Nome: {socio.Nome}, Data de Nascimento: {socio.DataNascimento}, Data de Associação: {socio.DataAssociacao}");
+
+                if (socio.Depedentes.Count > 0)
+                {
+                    Console.WriteLine($"Dependentes do {socio.Nome}: ");
+                    foreach (var dependente in socio.Depedentes)
+                    {
+                        Console.WriteLine($"Dependente - Número da Conta: {dependente.NumeroContaDependente}, Nome: {dependente.Nome}, Data de Nascimento: {dependente.DataNascimento}");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Nenhum socio com essa cota foi encotrado.");
+                    Console.WriteLine("Nenhum dependente registrado.");
                 }
             }
         }

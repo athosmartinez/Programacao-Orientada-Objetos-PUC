@@ -46,7 +46,4 @@ namespace Questao1
         }
 
     }
-
-
-
 }

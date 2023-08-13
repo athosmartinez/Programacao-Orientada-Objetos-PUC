@@ -13,14 +13,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             double real1 = double.Parse(Console.ReadLine());
             Console.Write("Parte imaginária: ");
             double imaginario1 = double.Parse(Console.ReadLine());
-
-
             Console.WriteLine("Digite os valores do segundo número complexo: ");
             Console.Write("Parte real: ");
             double real2 = double.Parse(Console.ReadLine());
             Console.Write("Parte imaginária: ");
             double imaginario2 = double.Parse(Console.ReadLine());
-
 
             NumeroComplexo n1 = new NumeroComplexo(real1, imaginario1);
             NumeroComplexo n2 = new NumeroComplexo(real2, imaginario2);

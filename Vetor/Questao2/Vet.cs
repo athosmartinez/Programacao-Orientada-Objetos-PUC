@@ -49,7 +49,6 @@ namespace Questao2
             }
         }
 
-
         public static void TemNoVetor(int[] vetor)
         {
             bool encontrado = false;
