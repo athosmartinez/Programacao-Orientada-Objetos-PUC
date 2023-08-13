@@ -7,7 +7,7 @@
         public DateOnly DataNascimento { get; set; }
         public DateOnly DataAssociacao { get; set; }
 
-        public List<DepedenteSocio> Depedentes { get; set; } = new List<DepedenteSocio>();  
+        public List<DepedenteSocio> Depedentes { get; set; } = new List<DepedenteSocio>();
 
         public Socios(int numeroCota, string nome, DateOnly dataNascimento, DateOnly dataAssociacao)
         {
@@ -28,7 +28,7 @@
             Console.WriteLine("Digite a data de associação do sócio, no formato DD/MM/YYYY: ");
             string DataAssociacaoString = Console.ReadLine();
 
-            
+
             if (DateOnly.TryParseExact(DataNascimentoString, "dd/MM/yyyy", out DateOnly DataNascimento) || DateOnly.TryParseExact(DataAssociacaoString, "dd/MM/yyyy", out DateOnly DataAssociacao))
             {
                 Random random = new Random();
@@ -40,6 +40,22 @@
             else
             {
                 Console.WriteLine("Data inválida");
+            }
+        }
+
+        public static void RemoverSocio(int numeroCota, Socios[] socios)
+        {
+            for (int i = 0; i < socios.Length; i++)
+            {
+                if (socios[i].NumeroCota == numeroCota)
+                {
+                    socios[i] = null;
+                    Console.WriteLine("Socio da " + numeroCota + " apagado com sucesso.");
+                }
+                else
+                {
+                    Console.WriteLine("Nenhum socio com essa cota foi encotrado.");
+                }
             }
         }
     }

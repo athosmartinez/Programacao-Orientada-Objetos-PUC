@@ -17,6 +17,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Socios.AdicionarSocio(socios, i);
             }
 
+
+            Console.WriteLine("Digite o numero da cota do socio que voce deseja excluir");
+            int numeroCota = int.Parse(Console.ReadLine());
+
+            Socios.RemoverSocio(numeroCota, socios);
+
         }
     }
 }
