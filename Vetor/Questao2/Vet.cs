@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Questao2
 {
@@ -10,6 +6,7 @@ namespace Questao2
     {
         public static void PreencherVetor(int[] vetor, int tam_vetor)
         {
+            // Preenche um vetor com valores fornecidos pelo usuário.
             for (int i = 0; i < vetor.Length; i++)
             {
                 Console.WriteLine("Digite a posição desejada (0 a {0}) ou -1 para encerrar: ", (tam_vetor - 1));
@@ -51,6 +48,7 @@ namespace Questao2
 
         public static void TemNoVetor(int[] vetor)
         {
+            // Procura por um valor no vetor e informa a posição, se encontrado.
             bool encontrado = false;
             int posicao = 0;
             Console.WriteLine("Digite o valor que você deseja encontrar no vetor: ");
@@ -71,19 +69,27 @@ namespace Questao2
             {
                 Console.WriteLine("Valor inválido. Por favor, digite um número inteiro válido.");
             }
-            if (encontrado == false)
+            if (!encontrado)
             {
                 Console.WriteLine("Valor {0} não encontrado no vetor.", valor);
             }
         }
-        public static void FindVetor(int[] vetor)
 
+        public static void FindVetor(int[] vetor)
         {
-            Console.WriteLine("Digite de qual posição você quer saber o valor, entre (0 e {0}) ", (vetor.Length - 1));
+            // Exibe o valor presente em uma determinada posição do vetor.
+            Console.WriteLine("Digite a posição que você quer saber o valor, entre (0 e {0}) ", (vetor.Length - 1));
             string input_find = Console.ReadLine();
             if (int.TryParse(input_find, out int find))
             {
-                Console.WriteLine($"O valor da posição {find} é " + vetor[find]);
+                if (find >= 0 && find < vetor.Length)
+                {
+                    Console.WriteLine($"O valor da posição {find} é " + vetor[find]);
+                }
+                else
+                {
+                    Console.WriteLine("Posição inválida. Digite uma posição entre 0 e {0}.", (vetor.Length - 1));
+                }
             }
             else
             {
@@ -93,6 +99,7 @@ namespace Questao2
 
         public static void ImprimirVetor(int[] vetor)
         {
+            // Imprime os elementos presentes no vetor.
             Console.WriteLine("Vetor preenchido: ");
 
             foreach (int i in vetor)
@@ -102,9 +109,9 @@ namespace Questao2
             Console.WriteLine();
         }
 
-
         public static void SomaPares(int[] vetor)
         {
+            // Calcula a soma dos elementos pares do vetor.
             int soma = 0;
             foreach (int elemento in vetor)
             {
@@ -113,11 +120,12 @@ namespace Questao2
                     soma += elemento;
                 }
             }
-            Console.WriteLine("Soma total do elementos é: " + soma);
+            Console.WriteLine("Soma total dos elementos pares é: " + soma);
         }
 
         public static void SomaImpares(int[] vetor)
         {
+            // Calcula a soma dos elementos ímpares do vetor.
             int soma = 0;
             foreach (int elemento in vetor)
             {
@@ -126,20 +134,18 @@ namespace Questao2
                     soma += elemento;
                 }
             }
-            Console.WriteLine("Soma total do elementos é: " + soma);
+            Console.WriteLine("Soma total dos elementos ímpares é: " + soma);
         }
 
         public static void SomaElementos(int[] vetor)
         {
+            // Calcula a soma de todos os elementos do vetor.
             int soma = 0;
-
             foreach (int elemento in vetor)
             {
                 soma += elemento;
             }
-            Console.WriteLine("Soma total do elementos é: " + soma);
+            Console.WriteLine("Soma total dos elementos é: " + soma);
         }
     }
-
 }
-

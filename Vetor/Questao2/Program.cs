@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Channels;
-using Questao2;
+using Questao2; // Importa o namespace Questao2, que contém a classe Vet.
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp // Namespace do aplicativo (pode variar de acordo com o nome do projeto).
 {
     internal class Program
     {
@@ -12,11 +12,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string tam_vetor_string = Console.ReadLine();
             int.TryParse(tam_vetor_string, out int tam_vetor);
             int[] vetor = new int[tam_vetor];
+
+            // Solicita que o usuário preencha o vetor.
             Console.WriteLine("Preencha o vetor nas posições desejadas de 0 a {0}", (tam_vetor - 1));
             Vet.PreencherVetor(vetor, tam_vetor);
             Vet.ImprimirVetor(vetor);
+
             while (true)
             {
+                // Menu de opções para manipular o vetor.
                 Console.WriteLine("Escolha uma opção:");
                 Console.WriteLine("1. Encontrar valor no vetor");
                 Console.WriteLine("2. Verificar se valor está no vetor");
@@ -55,5 +59,3 @@ namespace MyApp // Note: actual namespace depends on the project name.
         }
     }
 }
-
-

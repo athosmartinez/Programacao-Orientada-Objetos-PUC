@@ -14,23 +14,36 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 Socios.AdicionarSocio(socios, i);
             }
-            Console.WriteLine("Deseja remover algum socio (S/N) ");
-            if (Console.ReadLine().ToUpper() == "S")
+
+            while (true)
             {
-                Console.WriteLine("Digite o numero da cota do socio que voce deseja excluir");
-                int numeroCota = int.Parse(Console.ReadLine());
-                Socios.RemoverSocio(numeroCota, socios);
+                Console.WriteLine("Escolha uma opção:");
+                Console.WriteLine("1. Apagar algum socio");
+                Console.WriteLine("2. Listar socios e dependentes");
+                Console.WriteLine("0. Sair");
+
+                string opcao = Console.ReadLine();
+
+                switch (opcao)
+                {
+                    case "1":
+                        Console.WriteLine("Digite o numero da cota do socio que voce deseja excluir");
+                        int numeroCota = int.Parse(Console.ReadLine());
+                        Socios.RemoverSocio(numeroCota, socios);
+
+                        break;
+                    case "2":
+                        Console.WriteLine("Abaixo estão todos os socios e seus dependetes: ");
+                        Socios.ImprimirSociosEDependentes(socios);
+                        break;
+                    case "0":
+                        Console.WriteLine("Encerrando o programa...");
+                        return;
+                    default:
+                        Console.WriteLine("Opção inválida. Escolha uma opção válida.");
+                        break;
+                }
             }
-            else if (Console.ReadLine().ToUpper() == "N")
-            {
-                Console.WriteLine("Ok, vamos continuar");
-            }
-            else
-            {
-                Console.WriteLine("Opção inválida");
-            }
-            Console.WriteLine("Abaixo estão todos os socios e seus dependetes: ");
-            Socios.ImprimirSociosEDependentes(socios);
         }
     }
 }

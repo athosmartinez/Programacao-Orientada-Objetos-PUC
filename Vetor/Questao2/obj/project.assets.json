@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\athos\\.nuget\\packages\\": {}
+    "C:\\Users\\Athos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\Vetor\\Questao2\\Questao2.csproj",
+      "projectUniqueName": "C:\\Users\\Athos\\Documents\\GitHub\\Programacao-Orientada-Objetos-PUC\\Vetor\\Questao2\\Questao2.csproj",
       "projectName": "Questao2",
-      "projectPath": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\Vetor\\Questao2\\Questao2.csproj",
-      "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\athos\\Documents\\GitHub\\Programacao-Orientada-Objetos(PUC)\\Programacao-Orientada-Objetos-PUC\\Vetor\\Questao2\\obj\\",
+      "projectPath": "C:\\Users\\Athos\\Documents\\GitHub\\Programacao-Orientada-Objetos-PUC\\Vetor\\Questao2\\Questao2.csproj",
+      "packagesPath": "C:\\Users\\Athos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Athos\\Documents\\GitHub\\Programacao-Orientada-Objetos-PUC\\Vetor\\Questao2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Athos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
