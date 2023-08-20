@@ -1,0 +1,14 @@
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.AssemblyInfoInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.AssemblyInfo.cs
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\bin\Debug\net6.0\Questão1.exe
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\bin\Debug\net6.0\Questão1.deps.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\bin\Debug\net6.0\Questão1.runtimeconfig.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\bin\Debug\net6.0\Questão1.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\bin\Debug\net6.0\Questão1.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\refint\Questão1.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\Questão1.genruntimeconfig.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Questão1\Questão1\obj\Debug\net6.0\ref\Questão1.dll

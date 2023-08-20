@@ -1,0 +1,14 @@
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\bin\Debug\net6.0\Pessoa.exe
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\bin\Debug\net6.0\Pessoa.deps.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\bin\Debug\net6.0\Pessoa.runtimeconfig.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\bin\Debug\net6.0\Pessoa.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\bin\Debug\net6.0\Pessoa.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.AssemblyInfoInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.AssemblyInfo.cs
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\refint\Pessoa.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\Pessoa.genruntimeconfig.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Pessoa\Pessoa\obj\Debug\net6.0\ref\Pessoa.dll
