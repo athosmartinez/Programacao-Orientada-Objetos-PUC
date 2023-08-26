@@ -1,0 +1,14 @@
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\bin\Debug\net6.0\Banco.exe
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\bin\Debug\net6.0\Banco.deps.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\bin\Debug\net6.0\Banco.runtimeconfig.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\bin\Debug\net6.0\Banco.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\bin\Debug\net6.0\Banco.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.AssemblyInfoInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.AssemblyInfo.cs
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\refint\Banco.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\Banco.genruntimeconfig.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista02\Banco\Banco\obj\Debug\net6.0\ref\Banco.dll
