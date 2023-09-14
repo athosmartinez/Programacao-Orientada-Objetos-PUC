@@ -24,7 +24,6 @@ namespace Pessoa
 
         public ClassPessoas()
         {
-
         }
 
         public string getNome()
@@ -68,9 +67,9 @@ namespace Pessoa
 
         public double IMC()
         {
-            double IMCa = this.peso / Math.Pow(this.altura, 2) * 10000;
-            double IMCd = Math.Round(IMCa, 2);
-            return IMCa;
+            double IMCd = this.peso / Math.Pow(this.altura, 2) * 10000;
+            double IMC = Math.Round(IMCd, 2);
+            return IMC;
         }
     }
 }

@@ -19,7 +19,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             double altura = double.Parse(Console.ReadLine());
             pessoas[0] = new ClassPessoas(nome, sexo, peso, altura);
             double IMC = pessoas[0].IMC();
-            Console.WriteLine($"{IMC}");
+            Console.WriteLine($"IMC: {nome} - {IMC}");
 
 
             Console.WriteLine("Digite o nome: ");
@@ -34,11 +34,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             pessoas[1].setNome(nome2);
             pessoas[1].setSexo(sexo2);
             pessoas[1].setPeso(peso2);
-            pessoas[1].setPeso(altura2);
+            pessoas[1].setAltura(altura2);
 
             double IMC2 = pessoas[1].IMC();
             
-            Console.WriteLine("");
+            Console.WriteLine($"IMC: {nome2} - {IMC2}");
 
         }
         }
