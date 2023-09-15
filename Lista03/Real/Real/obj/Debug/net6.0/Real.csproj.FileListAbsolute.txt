@@ -1,0 +1,14 @@
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\bin\Debug\net6.0\Real.exe
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\bin\Debug\net6.0\Real.deps.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\bin\Debug\net6.0\Real.runtimeconfig.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\bin\Debug\net6.0\Real.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\bin\Debug\net6.0\Real.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.AssemblyInfoInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.AssemblyInfo.cs
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\refint\Real.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\Real.genruntimeconfig.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Real\Real\obj\Debug\net6.0\ref\Real.dll
