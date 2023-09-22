@@ -9,20 +9,35 @@ namespace Conta
     internal class ContaBanco
     {
         private int NumeroConta { get; set; }
-        public string TitularConta { get; private set; }
         public double SaldoConta { get; private set; }
 
-        public ContaBanco(string titularConta, double saldoConta)
+        public ContaBanco(int numeroConta, double saldoConta)
         {
-            TitularConta = titularConta;
+            NumeroConta = numeroConta;
             SaldoConta = saldoConta;
         }
 
-        public void SetNumeroConta(int numeroConta)
+        public int GetNumeroConta() { return this.NumeroConta; }
+
+        public double GetNumeroSaldo() { return this.SaldoConta; }
+
+        public void Depositar(double valor)
         {
-            this.NumeroConta = numeroConta;
+            SaldoConta += valor;
         }
 
-        public int GetNumeroConta() { return this.NumeroConta; }
+        public void Sacar(double valor)
+        {
+            if(valor <= SaldoConta)
+            {
+                SaldoConta -= valor;
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente!");
+            }
+        }
+
+
     }
 }

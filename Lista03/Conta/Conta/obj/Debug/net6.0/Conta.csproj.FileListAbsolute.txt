@@ -1,0 +1,14 @@
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\bin\Debug\net6.0\Conta.exe
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\bin\Debug\net6.0\Conta.deps.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\bin\Debug\net6.0\Conta.runtimeconfig.json
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\bin\Debug\net6.0\Conta.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\bin\Debug\net6.0\Conta.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.AssemblyInfoInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.AssemblyInfo.cs
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.csproj.CoreCompileInputs.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\refint\Conta.dll
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.pdb
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\Conta.genruntimeconfig.cache
+C:\Users\Athos\Documents\GitHub\Programacao-Orientada-Objetos-PUC\Lista03\Conta\Conta\obj\Debug\net6.0\ref\Conta.dll
